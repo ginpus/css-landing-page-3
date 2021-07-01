@@ -1,0 +1,129 @@
+body {
+    background: #fafafa;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.top_content {
+    background: #ffffff;
+    box-shadow: 0px 4px 60px rgba(26, 26, 46, 0.05);
+    border-radius: 30px;
+    text-align: center;
+    min-height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.top_content h3 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+    color: #33313b;
+    margin-bottom: 20px;
+}
+
+.top_content p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #aaaaaa;
+}
+
+.mid_content,
+.what,
+.latest,
+.our {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.what,
+.latest,
+.our {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.what h3,
+.latest h3,
+.our h3 {
+    font-weight: 800;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #33313B;
+}
+
+.what p,
+.latest p,
+.our p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BBBBBB;
+}
+
+.mid_content {
+    margin-bottom: 20px;
+}
+
+.mid_content img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mid_content h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #33313B;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mid_content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #AAAAAA;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.pic_content img {
+    display: block;
+    margin-bottom: 30px;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.bttm_content {
+    background: #F5F5F5;
+    border-radius: 20px;
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.custom {
+    justify-content: center;
+    align-items: center;
+}
+
+#white-keyboard {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
